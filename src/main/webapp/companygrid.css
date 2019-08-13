@@ -1,0 +1,102 @@
+
+/* .filter table{
+    display: flex;
+    position: relative; 
+    top: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(228, 227, 227);
+    box-shadow: 0px 4px 4px 0 rgba(0,0,0,0.2);
+    padding: 2px;
+
+}
+
+.filter td{
+    padding: 5px;
+    border: 2px solid transparent;
+    border-radius: 2px;   
+}
+
+.filter td:hover{
+    border: 2px solid rgb(184, 184, 184);
+    background-color: rgb(184, 184, 184);
+    border-radius: 2px;
+}
+
+.selectedfilter{
+    padding: 5px;
+    border: 2px solid rgb(184, 184, 184);
+    background-color: rgb(184, 184, 184);
+    border-radius: 2px;   
+}
+
+.filter tr{
+    background-color: gray; 
+}*/
+
+.company_grid{
+    padding: 5px;
+    border-collapse: collapse;
+    border-collapse: separate;
+    border-spacing: 20px 10px;
+
+}
+
+.company_grid td{
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+
+.company_container{
+
+    display: flex;
+	/* margin: 0px; */
+	background-color: white;
+	padding: 10px;
+	text-align: left;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	border: 1px solid #dbdbdb;
+	border-radius: 5px;
+	/*box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);*/
+    transition-duration: 0.4s;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.company_container:hover{
+    transition-duration: 0.4s;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 4px 8px 0 rgba(0,0,0,0.2),4px 16px 16px 0 rgba(0,0,0,0.2);
+	border: 1px solid gray;
+	
+}
+
+.company_name{
+    text-align: center;
+    margin: 5px;
+    font-size: 30px;
+    color: rgb(24, 105, 211);
+}
+
+.company_name img{
+    width: 40%;
+}
+
+.company_details{
+    text-align: left;
+    margin: 5px;
+}
+
+.company_actions{
+    display: flex;
+    justify-content: right;
+
+}
+
+.company_actions button{
+    border: 2px solid transparent;
+    border-radius: 3px;
+    padding: 7px;
+    font-size: 16px;
+    color: white;
+    margin: 4px 3px;
+}

@@ -1,0 +1,55 @@
+.sidebar{
+    background-color: rgb(230, 228, 228);
+    width: auto;
+    height: 100%;
+    position: fixed;
+    /* z-index: -1; */
+    /* display: block; */
+    top: 50px;
+    box-shadow: 2px 4px 8px 0 rgba(0,0,0,0.2);
+
+}
+
+.sidebar ul{
+    list-style-type: none;
+    text-align: left;
+    padding: 5px;
+}
+
+.sidebar li{
+    font-size: 20px;
+    padding: 5px;
+    border: 2px solid transparent;
+}
+
+.sidebar li:hover{
+    background-color: #189AD3;
+    border: 2px solid #189AD3;
+    border-radius: 2px;
+}
+
+.sidebar a{
+    text-decoration: black;
+    text-decoration-style: none;
+    color: black;
+}
+
+.sidebar a:visited{
+    text-decoration-style: none;
+    color: black;
+}
+
+#logout{
+    background-color: rgb(247, 111, 111);
+    color: white;
+    padding: 5px;   
+    border: 2px solid rgb(247, 111, 111);
+    border-radius: 2px;
+
+}
+
+#logout:hover{
+    background-color: red;
+    border: 2px solid red;
+
+}
